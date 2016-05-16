@@ -1,4 +1,4 @@
-package cn.edu.bupt.Singleton;
+package cn.edu.bupt.Singleton_Pattern;
 
 import org.junit.Assert;
 import org.junit.Test;

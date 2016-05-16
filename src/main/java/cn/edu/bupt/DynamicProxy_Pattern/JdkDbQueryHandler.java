@@ -1,4 +1,4 @@
-package cn.edu.bupt.DynamicProxy;
+package cn.edu.bupt.DynamicProxy_Pattern;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

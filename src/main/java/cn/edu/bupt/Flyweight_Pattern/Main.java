@@ -1,4 +1,4 @@
-package cn.edu.bupt.Flyweight;
+package cn.edu.bupt.Flyweight_Pattern;
 
 /**
  * Created by FirenzesEagle on 2016/5/16 0016.

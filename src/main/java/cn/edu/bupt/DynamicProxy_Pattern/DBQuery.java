@@ -1,4 +1,4 @@
-package cn.edu.bupt.DynamicProxy;
+package cn.edu.bupt.DynamicProxy_Pattern;
 
 /**
  * 真实主题：真正实现业务逻辑的类

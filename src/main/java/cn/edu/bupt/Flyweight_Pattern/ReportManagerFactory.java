@@ -1,4 +1,4 @@
-package cn.edu.bupt.Flyweight;
+package cn.edu.bupt.Flyweight_Pattern;
 
 import java.util.HashMap;
 import java.util.Map;

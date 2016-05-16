@@ -1,4 +1,4 @@
-package cn.edu.bupt.Singleton;
+package cn.edu.bupt.Singleton_Pattern;
 
 /**
  * 缺点：没有实现延迟加载，JVM加载单例类时，单例对象就会被创建
@@ -9,7 +9,7 @@ public class Singleton {
     private static Singleton instance = new Singleton();
 
     private Singleton(){
-        System.out.println("Singleton is create");  //创建单例的过程可能会比较慢
+        System.out.println("Singleton_Pattern is create");  //创建单例的过程可能会比较慢
     }
 
     public static Singleton getInstance(){
@@ -17,7 +17,7 @@ public class Singleton {
     }
 
     public static void createString(){
-        System.out.println("createString in Singleton");    //这是模拟单例类扮演其他角色
+        System.out.println("createString in Singleton_Pattern");    //这是模拟单例类扮演其他角色
     }
 
 }

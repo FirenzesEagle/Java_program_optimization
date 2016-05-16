@@ -1,4 +1,4 @@
-package cn.edu.bupt.Proxy;
+package cn.edu.bupt.Proxy_Pattern;
 
 /**
  * 代理类：用来代理和封装真实主题

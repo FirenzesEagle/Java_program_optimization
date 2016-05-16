@@ -1,4 +1,4 @@
-package cn.edu.bupt.Singleton;
+package cn.edu.bupt.Singleton_Pattern;
 
 /**
  * 优点：当StaticSingleton被加载时，其内部类不会被初始化，当getInstance()方法被调用时，才会加载SingletonHolder，从而初始化instance

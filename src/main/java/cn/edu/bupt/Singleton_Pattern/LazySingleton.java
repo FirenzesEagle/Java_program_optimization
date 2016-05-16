@@ -1,4 +1,4 @@
-package cn.edu.bupt.Singleton;
+package cn.edu.bupt.Singleton_Pattern;
 
 /**
  * 优点：实现了延迟加载

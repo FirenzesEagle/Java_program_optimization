@@ -1,4 +1,4 @@
-package cn.edu.bupt.DynamicProxy;
+package cn.edu.bupt.DynamicProxy_Pattern;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;

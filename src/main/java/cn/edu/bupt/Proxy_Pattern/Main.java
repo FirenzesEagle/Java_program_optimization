@@ -1,4 +1,4 @@
-package cn.edu.bupt.Proxy;
+package cn.edu.bupt.Proxy_Pattern;
 
 /**
  * Created by FirenzesEagle on 2016/5/13 0013.

@@ -1,4 +1,4 @@
-package cn.edu.bupt.DynamicProxy;
+package cn.edu.bupt.DynamicProxy_Pattern;
 
 /**
  * Tips:相同代理类的重复生成会使用cache，故动态代理对象的方法调用性能应该作为性能的主要关注点

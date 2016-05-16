@@ -1,4 +1,4 @@
-package cn.edu.bupt.Flyweight;
+package cn.edu.bupt.Flyweight_Pattern;
 
 /**
  * 抽象享元：定义需共享的对象的业务员接口

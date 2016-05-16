@@ -1,4 +1,4 @@
-package cn.edu.bupt.Singleton;
+package cn.edu.bupt.Singleton_Pattern;
 
 /**
  * 优点：序列化后即使重新反序列化也是生成的同一个实例
@@ -10,7 +10,7 @@ public class SerSingleton implements java.io.Serializable {
     String name;
 
     private SerSingleton(){
-        System.out.println("Singleton is create");  //创建单例的过程可能会比较慢
+        System.out.println("Singleton_Pattern is create");  //创建单例的过程可能会比较慢
         name = "SerSingleton";
     }
 
@@ -19,7 +19,7 @@ public class SerSingleton implements java.io.Serializable {
     }
 
     public static void createString(){
-        System.out.println("createString in Singleton");
+        System.out.println("createString in Singleton_Pattern");
     }
 
     //此方法实现了私有的readResolve()方法，readObject方法已经形同虚设，它直接使用readResolve()替换了原本的返回值，从而在形式上实现了单例
