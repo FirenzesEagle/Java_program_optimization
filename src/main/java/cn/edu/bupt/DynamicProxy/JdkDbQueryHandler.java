@@ -12,14 +12,14 @@ import java.lang.reflect.Proxy;
  */
 public class JdkDbQueryHandler implements InvocationHandler {
 
-    IDBQuery idbQuery = null;
+    IDBQuery real = null;
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        if (idbQuery == null) {
-            idbQuery = new DBQuery();
+        if (real == null) {
+            real = new DBQuery();
         }
-        return idbQuery.request();
+        return real.request();
     }
 
     public static IDBQuery createJdkProxy() {

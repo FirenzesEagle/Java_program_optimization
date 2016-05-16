@@ -14,13 +14,13 @@ import java.lang.reflect.Method;
  */
 public class CglibDbQueryInterceptor implements MethodInterceptor {
 
-    IDBQuery idbQuery = null;
+    IDBQuery real = null;
 
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
-        if (idbQuery == null){
-            idbQuery = new DBQuery();
+        if (real == null){
+            real = new DBQuery();
         }
-        return idbQuery.request();
+        return real.request();
     }
 
     public static IDBQuery createCglibProxy(){
