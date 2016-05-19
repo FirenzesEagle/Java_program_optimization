@@ -5,6 +5,8 @@ import org.junit.Test;
 import java.io.*;
 
 /**
+ * 有缓冲与无缓冲的文件写入操作耗时对比
+ *
  * Created by FirenzesEagle on 2016/5/19 0019.
  * Email:liumingbo2008@gmail.com
  */

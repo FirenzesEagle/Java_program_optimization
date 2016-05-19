@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
+ * 无缓冲实现的画图
+ * <p>
  * Created by FirenzesEagle on 2016/5/19 0019.
  * Email:liumingbo2008@gmail.com
  */
@@ -46,8 +48,8 @@ public class NoBufferMovingCircle extends JApplet implements Runnable {
         g.fillOval(x, 5, 90, 90);
     }
 
-    public void paint(Graphics g) {
-        g.setColor(Color.white);
+    public void paint(Graphics g) { //画一个圈
+        g.setColor(Color.white);    //这里没有缓冲
         g.fillRect(0, 0, 200, 100);
         drawCircle(g);
     }
