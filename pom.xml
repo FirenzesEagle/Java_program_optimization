@@ -31,6 +31,7 @@
         <cglib.version>3.2.2</cglib.version>
         <javassist.version>3.20.0-GA</javassist.version>
         <ehcache.version>2.9.0</ehcache.version>
+        <commons-pool2.version>2.4.2</commons-pool2.version>
     </properties>
 
     <dependencies>
@@ -55,10 +56,18 @@
             <version>${javassist.version}</version>
         </dependency>
 
+        <!--ehcache-->
         <dependency>
             <groupId>net.sf.ehcache</groupId>
             <artifactId>ehcache</artifactId>
             <version>${ehcache.version}</version>
+        </dependency>
+
+        <!--commons-pool2-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
+            <version>${commons-pool2.version}</version>
         </dependency>
 
     </dependencies>
