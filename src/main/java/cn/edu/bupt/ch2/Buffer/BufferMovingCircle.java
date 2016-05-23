@@ -1,4 +1,4 @@
-package cn.edu.bupt.ch1.Buffer;
+package cn.edu.bupt.ch2.Buffer;
 
 import java.awt.*;
 

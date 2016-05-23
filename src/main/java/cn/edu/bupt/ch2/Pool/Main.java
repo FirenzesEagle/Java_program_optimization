@@ -1,4 +1,4 @@
-package cn.edu.bupt.ch1.Pool;
+package cn.edu.bupt.ch2.Pool;
 
 /**
  * Created by FirenzesEagle on 2016/5/21 0021.

@@ -1,4 +1,4 @@
-package cn.edu.bupt.ch1.Buffer;
+package cn.edu.bupt.ch2.Buffer;
 
 import net.sf.ehcache.CacheManager;
 import net.sf.ehcache.Element;

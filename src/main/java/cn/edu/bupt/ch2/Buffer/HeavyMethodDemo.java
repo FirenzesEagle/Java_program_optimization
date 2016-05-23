@@ -1,4 +1,4 @@
-package cn.edu.bupt.ch1.Buffer;
+package cn.edu.bupt.ch2.Buffer;
 
 /**
  * 会被频繁调用，需要加入到缓存中的因式分解类

@@ -1,7 +1,7 @@
-package cn.edu.bupt.ch1.Buffer;
+package cn.edu.bupt.ch2.Buffer;
 
-import static cn.edu.bupt.ch1.Buffer.CglibHeavyMethodInterceptor.newCacheHeavyMethod;
-import static cn.edu.bupt.ch1.Buffer.CglibHeavyMethodInterceptor.newHeavyMethod;
+import static cn.edu.bupt.ch2.Buffer.CglibHeavyMethodInterceptor.newCacheHeavyMethod;
+import static cn.edu.bupt.ch2.Buffer.CglibHeavyMethodInterceptor.newHeavyMethod;
 
 /**
  * 缓存测试类，疑问：使用缓存比不使用缓存耗费时间还长,与循环的数量级有关
