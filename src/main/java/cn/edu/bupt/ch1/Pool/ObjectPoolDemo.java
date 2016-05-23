@@ -1,4 +1,4 @@
-package cn.edu.bupt.ch2.Pool;
+package cn.edu.bupt.ch1.Pool;
 
 import org.apache.commons.pool2.ObjectPool;
 import org.apache.commons.pool2.PooledObjectFactory;

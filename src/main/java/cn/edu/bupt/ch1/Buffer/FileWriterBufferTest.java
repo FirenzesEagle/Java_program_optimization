@@ -1,4 +1,4 @@
-package cn.edu.bupt.ch2.Buffer;
+package cn.edu.bupt.ch1.Buffer;
 
 import org.junit.Test;
 
