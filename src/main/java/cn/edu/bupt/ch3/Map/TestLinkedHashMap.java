@@ -8,6 +8,10 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
+ * 有序的HashMap，可以提供两种类型的顺序：
+ * 1、元素插入时的顺序   false
+ * 2、最近访问顺序 true
+ * <p>
  * Created by FirenzesEagle on 2016/6/1 0001.
  * Email:liumingbo2008@gmail.com
  */
